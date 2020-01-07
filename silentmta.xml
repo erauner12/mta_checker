@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SilentMTAConfiguration>
+    <ListMTAApplicationUsers>
+   	<MTAApplicationUser>
+            <UserName>tolthof</UserName>
+            <UserType>CERNERUSER</UserType>
+            <ListApplications>
+                <Application>DESKTOPLAUNCHER</Application>
+		<Application>POWERCHART</Application>
+            </ListApplications>
+
+            <UserAppConfiguration>
+                <RotateLogs>12</RotateLogs>
+            </UserAppConfiguration>
+        </MTAApplicationUser>   	
+    </ListMTAApplicationUsers>
+    <GlobalConfiguration>
+        <FinalTimeOut>10</FinalTimeOut>
+        <InitialTimeOut>25</InitialTimeOut>
+        <PollForProcess>5</PollForProcess>
+        <RequestReply>NO</RequestReply>
+        <Profile>c:\program files\cerner\cerner_workflow77.rpr</Profile>
+    </GlobalConfiguration>
+</SilentMTAConfiguration>
