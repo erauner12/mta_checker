@@ -8,11 +8,23 @@
                 <Application>DESKTOPLAUNCHER</Application>
 		<Application>POWERCHART</Application>
             </ListApplications>
-
+​
             <UserAppConfiguration>
                 <RotateLogs>12</RotateLogs>
             </UserAppConfiguration>
-        </MTAApplicationUser>   	
+        </MTAApplicationUser>
+   	<MTAApplicationUser>
+            <UserName>evan</UserName>
+            <UserType>CERNERUSER</UserType>
+            <ListApplications>
+                <Application>DESKTOPLAUNCHER</Application>
+		<Application>POWERCHART</Application>
+            </ListApplications>
+​
+            <UserAppConfiguration>
+                <RotateLogs>12</RotateLogs>
+            </UserAppConfiguration>
+        </MTAApplicationUser>		
     </ListMTAApplicationUsers>
     <GlobalConfiguration>
         <FinalTimeOut>10</FinalTimeOut>
